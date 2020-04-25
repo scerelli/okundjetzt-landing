@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <title>Okundjetzt</title>
+  <style>
+    * {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+     @font-face {
+      font-family: grandmaster;
+      src: url(Grandmaster-Bold.otf);
+    }
+    body {
+      font-family: grandmaster, Arial, Helvetica, sans-serif;
+      background-color: #0057ff;
+      height: 100vh;
+      color: bisque;
+      padding: 0 16px;
+    }
+    @media only screen and (min--moz-device-pixel-ratio: 2),
+      only screen and (-o-min-device-pixel-ratio: 2/1),
+      only screen and (-webkit-min-device-pixel-ratio: 2),
+      only screen and (min-device-pixel-ratio: 2) {
+
+      .image {
+          background: url(/path/to/my/highreslogo.png) no-repeat;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding-top: 64px;">
+    <img style="width: 100%; height: auto; max-width: 860px;" src="./logo@x2.png" />
+  </div>
+</body>
+</html>
